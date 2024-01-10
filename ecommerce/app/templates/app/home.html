@@ -54,23 +54,85 @@
 
 {% block main-content %}
     <div class="container">
-        <h2 class"text-cemter" >Dairy Products</h2>
+        <h2 class"text-center" >Dairy Products</h2>
         <br></br>
         <div class="row container">
-            <div class="col-nd-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration='1s' 
-            data-wow-delay="0.6s" style="animation-duration: 1s; 
-            animation-delay: 0.6s; animation-name: none;">
-            <div class="goodnesssec buttermilk smbg">
-                <a href="#">
+            <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" 
+            data-wow-duration="1s" data-wow-delay="0.6s" 
+            style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+                <div class="goodnesssec buttermilk smbg">
+                  <a href="#">
                     <div class="goodnessseccont text-center">
-                        <img src ="{% static 'app/images/product/buffalo-ghee.png' %}"
-                        class="img-responsive" alt="">
-                        <p class ="mlkpro">Ghee</p>
+                      <img src="{% static 'app/images/Products/buffalo-ghee.png' %}" class="img-responsive center-block" alt="">
+                      <p class="mlkpro">Ghee</p>
                     </div>
-                </a>
+                  </a>
+                </div>
             </div>
+            <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+              <div class="goodnesssec buttermilk curdbgpro">
+                <a href="#">
+                  <div class="goodnessseccont text-center">
+                    <img src="{% static 'app/images/Products/curd-total.png' %}" class="img-responsive center-block" alt="">
+                    <p class="mlkpro">Curd</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" 
+            data-wow-duration="1s" data-wow-delay="0.6s" 
+            style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+              <div class="goodnesssec buttermilk buttermilk">
+                <a href="#">
+                  <div class="goodnessseccont text-center">
+                    <img src="{% static 'app/images/Products/kulfi.png' %}" class="img-responsive center-block" alt="">
+                    <p class="mlkpro">kulfi</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br></br>
 
-        </div>
+          <div class="row container">
+            <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" 
+            data-wow-duration="1s" data-wow-delay="0.6s" 
+            style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+                <div class="goodnesssec buttermilk smbg">
+                  <a href="#">
+                    <div class="goodnessseccont text-center">
+                      <img src="{% static 'app/images/Products/milk-shake-chocolate.png' %}" class="img-responsive center-block" alt="">
+                      <p class="mlkpro">MilkShake</p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+              <div class="goodnesssec buttermilk curdbgpro">
+                <a href="#">
+                  <div class="goodnessseccont text-center">
+                    <img src="{% static 'app/images/Products/cow-milk.png' %}" class="img-responsive center-block" alt="">
+                    <p class="mlkpro">Milk</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" 
+            data-wow-duration="1s" data-wow-delay="0.6s" 
+            style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+              <div class="goodnesssec buttermilk buttermilk">
+                <a href="#">k\ccc
+                  <div class="goodnessseccont text-center">
+                    <img src="{% static 'app/images/Products/icbars.png' %}" class="img-responsive center-block" alt="">
+                    <p class="mlkpro">Icebar</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
     </div>
     <br></br>
 {% endblock main-content %}
